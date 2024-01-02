@@ -1,0 +1,149 @@
+.time-table{
+    font-size: 8px;
+}
+.tip-conatiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:4px;
+    padding:8px;
+    /* width: max-content; */
+    border-radius: 8px;
+    background-color: #add8e6;
+}
+.idea-img-container{
+    height:24px;
+    width:24px;
+}
+.idea-img-container img{
+    height:100%;
+    width:100%;
+}
+.selector{
+    font-size: 16px;
+}
+.controls{
+    margin-left: 32px;
+}
+.controls div{
+    margin-block:5px;
+}
+.control-title input, .control-slots select{
+    margin-inline: 5px;
+    padding: 4px;
+}
+.selector input {
+    padding: 4px;
+}
+.forenoon-slot div, .afternoon-slot div, .elective-slots div {
+    display: flex;
+    margin-block: 3px;
+}
+.forenoon-slot .slot div:nth-child(1){
+    flex: 1;
+}
+.afternoon-slot .slot div:nth-child(1){
+    flex: 1;
+}
+.elective-slots .slot div:nth-child(1){
+    flex:1;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    margin-block: 25px;
+}
+.btn-container button{
+    padding-inline: 16px ;
+    padding-block: 8px;
+    font-size: 16px;
+    color:white;
+    border:none;
+    border-radius: 4px;
+}
+.reset-btn-container button{
+    background-color: #f44336;
+}
+.download-btn-container button{
+    background-color: #04AA6D;
+}
+
+
+
+.core-slots, .elective-slots{
+    margin-inline: 32px;
+}
+
+
+
+
+
+.core-slots input, .elective-slots input {
+    width: 100px;
+    /* margin: 3px; */
+    padding: 4px;
+    margin-inline: 5px;
+}
+
+.preview-title{
+    margin-inline: 32px;
+    font-weight: 500;
+}
+
+/* table css */
+
+.time-table-container{
+    /* margin-block: 32px; */
+    padding-block: 32px;
+}
+.table-title{
+    text-align: center;
+    font-size: 8px;
+    margin-block:4px;
+}
+.lunch tr, .lunch td, .lunch table{
+    border: none;
+  }
+  .table{
+      display: flex;
+      justify-content: center;
+  }
+  table, tr, th, td{
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 8px;
+      /* margin-inline: 2px; */
+      text-align: center;
+      font-size:5px;
+  }
+ .blank{
+    border-block: 1px solid rgb(198, 198, 198);
+    background-color: rgb(198, 198, 198);
+ } 
+
+  
+  .a{
+      background-color: #add8e6;
+  }
+  .b{
+      background-color: #98fb98;
+  }
+  .c{
+      background-color: #ffeb3b;
+  }
+  .d{
+      background-color: #e6e6fa;
+  }
+  .e{
+      background-color: rgb(185, 117, 248);
+  }
+  .f{
+      background-color: burlywood;
+  }
+  .g{
+      background-color: #f08080;
+  }
+  .h{
+      background-color:aqua;
+  }
+

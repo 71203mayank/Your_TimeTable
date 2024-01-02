@@ -1,0 +1,27 @@
+.footer{
+    margin-top: 12px;
+    /* padding-top: 16px; */
+    background-color: #add8e6;
+    border-radius: 24px 24px 0 0 ;
+}
+.icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:32px;
+    padding-bottom: 24px;
+}
+.icon-img{
+    height:50px;
+    width:50px;
+    margin-inline:12px;
+}
+.icon-img img{
+    height:100%;
+    width:100%;
+}
+.footer-base{
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
